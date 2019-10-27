@@ -27,10 +27,11 @@ useEffect(() => {
     
           <div>
             <NasaCard
-              tittle={nasa.copyright}
+              author={nasa.copyright}
               date={nasa.date}
               explanation={nasa.explanation}
               picture={nasa.hdurl}
+              title={nasa.title}
 
             />
           </div>
